@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script src = "testezitos.js"> </script>
+        <script src = "elementosPadrao.js"></script>
+    </head>
+
+
+    <body align = "center">        
+        <div>
+            <a href = "paginaInicial.html"><button>página inicial</button></a>
+            <a><button style = "background-color:white">chaveamento/apostas</button></a>  
+            <a href = "ranking.html"><button>ranking</button></a> 
+            <a href = "regulamento.html"><button> regulamento </button></a>
+        </div>
+        <hr>
+        <div>
+            <H1>
+                CAMPEÃO: 
+                <select>
+                    <option> Brasil </option>
+                    <option> Alemanha </option>
+                    <option> Espanha </option>
+                </select> 
+                <button> confirma </button>
+            </H1>
+            <h2>
+                JOGADOR REVELAÇÃO:
+                <input type = "text"></input>
+                <button> confirma </button>
+            </h2>
+        </div>
+        <hr>
+        <div align = "center">
+            <div>
+                <table>
+                    <tr> <select>
+                        <option>grupo A</option>
+                        <option>grupo B</option>
+                        <option>grupo C</option>
+                        <option>grupo D</option>
+                        <option>grupo E</option>
+                        <option>grupo F</option>
+                        <option>grupo G</option>
+                        <option>grupo H</option>
+                        <option>grupo I</option>
+                        <option>grupo J</option>
+                        <option>grupo K</option>
+                        <option>grupo L</option>
+                    </select> </tr>
+                    <tr> <th> Seleção </th> <th> Vitórias </th> <th> Empates </th> <th> Derrotas </th> <th> Pontos </th> </tr>
+                    <tr> <td> México </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> </tr>
+                    <tr> <td> África do Sul </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> </tr>
+                    <tr> <td> Coreia do Sul </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> </tr>
+                    <tr> <td> Caminho D - UEFA </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> <td> 0 </td> </tr>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div>
+            México <span id = "dg1"> </span> X <span id = "dg2"></span> África do Sul <button> confirma </button>
+        </div>
+        </div>
+        <div>
+            México 
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+            </select>
+            X
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+            </select>
+            África do Sul
+            <button> confirma </button>
+        </div>
+        
+        <hr>
+
+        <script>
+            document.getElementById("dg1").innerHTML = dropdownGols;
+            document.getElementById("dg2").innerHTML = dropdownGols;
+        </script>
+    </body>
+</html>
